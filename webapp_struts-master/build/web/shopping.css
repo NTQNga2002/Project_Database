@@ -1,0 +1,177 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 1, 2022, 2:56:21 PM
+    Author     : cntt_namng
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 1082px;
+    margin: 0 auto;
+      
+}   
+header{
+    height: 128px;
+    background-image: url("image/header.png");
+    opacity: 1;
+    /*float: left;*/
+}
+.header_img{
+    padding-left: 12px;
+    opacity: 1;
+    float: left;
+}
+.header_name{
+    height: 50px;
+    padding-top: 20px;
+    
+    margin-left: 850px;
+    font-size: 15px
+    /*border: solid;*/
+}
+article{
+    margin-top: 1px;
+    height: 609px;
+    background-image: url("image/nen.jpg");
+    border: solid;
+    border-color: #ffffff;
+}
+article h1{
+    opacity: 1;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: #ff0000;
+    /*color: #082081;*/
+    text-align: center;
+    padding-top: 30px;
+}
+.chooses{
+    height: 510px;
+    padding-left: 53px;
+}
+.choose_button{
+    float: left;
+    background-image: url("image/button.png");
+    margin-top: 175px;
+    margin-left: 125px;
+    height: 152px;
+    width: 300px;
+}
+.choose_text{
+    height: 50px;
+    width: 300px;
+    margin-top: 53px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Lucida Console", monospace;
+   
+}
+.login_block{
+    height: 500px;
+    width: 400px;
+    margin-left: 191px;
+    margin-top: 50px;
+    background-color: #2e47e8;
+    opacity: 0.5;
+    float: left;
+    
+}
+.login_block_text{
+    width: 350px;
+    height: 100px;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+.login{
+    width: 300px;
+    background-color: #ffffff;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 591px;
+    opacity: 0.9;
+}
+.User_pass{
+    margin-top: 150px;
+    margin-left: 25px;
+    width: 200px;
+    height: 200px;
+}
+.manager{
+    height: 30px;
+    background-color:  #270870;
+    float: left;
+}
+.choose_sql_tool{
+    height: 30px;
+    width: 1082px;
+    background-color: #270870;
+    
+    
+    
+}
+ul{
+    list-style: none;
+    
+}
+ul li{
+    float: left;
+    line-height: 30px;
+    padding: 0 15px;
+}
+ul li a{
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none; 
+}
+.search{
+    background-image: url("image/search_bg.png");
+    opacity: 0.9;
+    height: 500px;
+    width: 800px;
+    margin-left: 140px;
+    margin-top: 50px;
+    
+}
+.search .search_box{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 200px
+}
+h2{
+    font-size: 20px;
+    font-family: "Lucida Console", monospace;
+    color: #ffffff;
+}
+h3{
+    font-size: 40px;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+h4{
+    padding-top: 30px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-family: "Lucida Console", monospace;
+    color: #2e47e8;
+}
+
+/*
+#pictures {
+    background-image: url("/image/brg.gif"); 
+    background-size:  800px 600px;
+    background-repeat: no-repeat;
+}
+h{
+       color: blue;
+       background-color: yellow;
+}*/
